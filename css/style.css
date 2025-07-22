@@ -14,16 +14,18 @@ ul{
     align-items: center;
     justify-content: space-between;
     padding: 10px 0px;
+    flex-wrap: wrap;
     
 }
 header{
     background-image: url('../img/hero-bg.png');
     
 }
+
 nav ul {
     display: flex;
-    gap: 50px;
-    
+    gap: 10px 50px;
+    flex-wrap: wrap;
 }
 nav ul :hover{
     color: white;
