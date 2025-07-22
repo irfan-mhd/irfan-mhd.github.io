@@ -5,8 +5,9 @@
 
 }
 @media screen and (max-width:767px){
-     nav ul{
-        display: none;
+     .toggle-bt{
+        display: flex;
+        z-index: 100;
      }
 }
 @media screen and (max-width:575px){

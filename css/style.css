@@ -64,5 +64,37 @@ h1{
 .dow-bt{
     background-color: #FF4D4D;
 }
+.logo :hover{
+    color: #FF4D4D;
+}
+.logo{
+    color: #726e5f;
+    border: solid 1px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 3px;
+}
+.logo a i{
+    color: #726e5f;
+}
+.toggle-bt{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    display: none;
+    
+}
+.toggle-bt div{
+    background: rgb(0, 0, 0);
+    width: 25px;
+    height: 4px;
+    position: relative;
+    transition: 0.3s;
+    
+}
+
 
 
