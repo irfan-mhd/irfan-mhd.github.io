@@ -113,9 +113,12 @@ h1{
 }
 #about{
     
-    padding-top: 120px;
-    background-color: #;
+    background-color: #FDF7EB;
     
+    
+}
+.about-cnt{
+    padding: 100px 0px;
 }
 
 .about-cnt h4{
