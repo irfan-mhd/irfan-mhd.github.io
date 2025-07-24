@@ -80,6 +80,7 @@ h1{
 }
 .logo a i{
     color: #726e5f;
+    font-size: x-large;
 }
 .toggle-bt{
     display: flex;
@@ -105,6 +106,7 @@ h1{
     gap: 30px;
     justify-content: space-between;
     padding: 10px;
+    flex-wrap: wrap;
 }
 .line{
     background-color: #FF4D4D;
@@ -157,6 +159,19 @@ h1{
 }
 .p-cnt{
     display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.cv-bt a{
+    background-color: #FF4D4D;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.education-head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     justify-content: center;
 }
 
