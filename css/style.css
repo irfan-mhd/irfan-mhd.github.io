@@ -28,9 +28,9 @@ nav ul {
     flex-wrap: wrap;
 }
 nav ul :hover{
-    color: white;
-    background-color: #FF4D4D;
-    padding: 0px 5px;
+    color: #FF4D4D;
+    
+    text-decoration: underline;
     border-radius: 30px;
 }
 nav ul a{
@@ -97,6 +97,64 @@ h1{
     transition: 0.3s;
     
 }
+.service-text{
+    background-color: #F0E3D3;
+}
+.service-cnt{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.line{
+    background-color: #FF4D4D;
+    width: 100%;
+    height: 1px;
+}
+#about{
+    
+    padding-top: 120px;
+    background-color: #;
+    
+}
 
+.about-cnt h4{
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    width: max-content;
+    bottom: 17px;
+    text-align: center;
+    color: white;
+}
+
+.about-cnt h4::after{
+    content: "";
+    position: absolute;
+    height: 142%;
+    width: 120px;
+    background: #BBB6A3;
+  
+    left: -22px;
+    top: -4px;
+    z-index: -1;
+    transform: rotate(-8deg);
+    border-radius: 30px;
+    
+}
+.about-cnt p{
+    text-align: center;
+    max-width: 750px;
+    
+}
+.cv-bt{
+    display: flex;
+    justify-content: center;
+   
+}
+.p-cnt{
+    display: flex;
+    justify-content: center;
+}
 
 
