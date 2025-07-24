@@ -174,5 +174,15 @@ h1{
     gap: 10px;
     justify-content: center;
 }
+.ui-ux-cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #FDF7EB ;
+
+}
+#education{
+    background-color: #F0E3D3;
+}
 
 
