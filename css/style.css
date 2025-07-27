@@ -18,7 +18,7 @@ ul{
     
 }
 header{
-    background-image: url('../img/hero-bg.png');
+    
     
 }
 
@@ -50,7 +50,7 @@ nav ul a{
     color: #FDF7EB;
 }
 #hero{
-    background-color: #FDF7EB ;
+    background-image: url('../img/hero-bg.png');
     height: 100vh;
 }
 .hero-cnt {
@@ -188,6 +188,9 @@ h1{
     background-color: #FDF7EB;
 }
 .grid-web{
+    background-color: #F0E3D3;
+}
+#skills{
     background-color: #F0E3D3;
 }
 
