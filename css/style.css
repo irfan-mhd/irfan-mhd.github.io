@@ -15,10 +15,12 @@ ul{
     justify-content: space-between;
     padding: 10px 0px;
     flex-wrap: wrap;
+    width: 100%;
     
 }
 header{
-    
+    position: fixed;
+    width: 100%;
     
 }
 
@@ -105,7 +107,7 @@ h1{
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    padding: 10px;
+    padding: 60px 0px;
     flex-wrap: wrap;
 }
 .line{
@@ -168,17 +170,24 @@ h1{
     color: #ffffff;
     padding: 10px 20px;
 }
+.education-cnt{
+    padding: 60px 0;
+}
 .education-head{
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .ui-ux-cnt{
     display: flex;
     flex-direction: column;
     align-items: center;
     border: solid 1px #FDF7EB ;
+    justify-content: center;
+    height: 200px;
+    gap: 7px;
 
 }
 #education{
@@ -187,11 +196,27 @@ h1{
 #service{
     background-color: #FDF7EB;
 }
+.service-bt{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
 .grid-web{
     background-color: #F0E3D3;
 }
 #skills{
     background-color: #F0E3D3;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+.service-head{
+    max-width: 400px;
 }
 
 
