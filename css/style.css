@@ -230,6 +230,16 @@ h1{
 .ui-ux-cnt i{
     font-size: 30px;
 }
+
+
+
+
+/* skils cards */
+.skill-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .skills-heading{
     display: flex;
     align-items: center;
@@ -242,6 +252,86 @@ h1{
 .skills-cnt{
     padding: 100px 0px;
 }
-
+.skill-col.figma .count-out {
+       background-color: #BBB6A3;
+       width: 200px;
+       height: 3px;
+       border-radius: 15px;
+}
+.skill-col.figma .count-in{
+    background-color: #FF4D4D;
+    width: 150px;
+    height: 3px;
+}
+.skill-col.bt .count-out{
+    background-color: #BBB6A3;
+    width: 200px;
+    height: 3px;
+    border-radius: 15px;
+}
+.skill-col.bt .count-in{
+    background-color: #FF4D4D;
+    width: 130px;
+    height: 3px;
+}
+.skill-col.ps .count-out{
+    background-color: #BBB6A3;
+    width: 200px;
+    height: 3px;
+    border-radius: 15px;
+}
+.skill-col.ps .count-in{
+    background-color: #FF4D4D;
+    width: 110px;
+    height: 3px;
+}
+.skill-col.js .count-out{
+    background-color: #BBB6A3;
+    width: 200px;
+    height: 3px;
+    border-radius: 15px;
+}
+.skill-col.js .count-in{
+    background-color: #FF4D4D;
+    width: 100px;
+    height: 3px;
+}
+.skill-col.html .count-out{
+    background-color: #BBB6A3;
+    width: 200px;
+    height: 3px;
+    border-radius: 15px;
+}
+.skill-col.html .count-in{
+    background-color: #FF4D4D;
+    width: 160px;
+    height: 3px;
+}
+.skill-col.css .count-out{
+    background-color: #BBB6A3;
+    width: 200px;
+    height: 3px;
+    border-radius: 15px;
+}
+.skill-col.css .count-in{
+    background-color: #FF4D4D;
+    width: 130px;
+    height: 3px;
+}
+.t-cnt{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+.logo-bg {
+    /* padding: 10px; */
+    background: #fdf7eb;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 
 
