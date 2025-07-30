@@ -100,14 +100,21 @@ h1{
     transition: 0.3s;
     
 }
+.service-cnt{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+}
 .service-text{
     background-color: #F0E3D3;
 }
-.service-cnt{
+.service-cnt1{
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    padding: 60px 0px;
+    padding: 100px 0px;
     flex-wrap: wrap;
 }
 .line{
@@ -204,6 +211,8 @@ h1{
 }
 .grid-web{
     background-color: #F0E3D3;
+    padding: 10px 5px;
+
 }
 #skills{
     background-color: #F0E3D3;
@@ -218,5 +227,21 @@ h1{
 .service-head{
     max-width: 400px;
 }
+.ui-ux-cnt i{
+    font-size: 30px;
+}
+.skills-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.skills-cnt h3{
+      text-align: center;
+}
+.skills-cnt{
+    padding: 100px 0px;
+}
+
 
 
