@@ -242,8 +242,11 @@ h1{
     justify-content: center;
     border-radius: 30px;
     border: solid 1px; 
-    border-color: white;
+    border-color: #FDF7EB;
     padding: 20px;
+}
+.skill-col:hover{
+    background-color: #FDF7EB;
 }
 .skills-heading{
     display: flex;
@@ -369,6 +372,9 @@ h1{
     color: white;
     
     
+}
+.portfolio-col img{
+    width: 100%;
 }
 
 
