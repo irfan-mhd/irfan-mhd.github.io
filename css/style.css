@@ -394,6 +394,36 @@ h1{
 .see-all-bt a{
     color: black;
 }
+.footer-cnt{
+    padding: 60px 0px;
+}
+.contact-now{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-bar a{
+    color: black;
+}
+.contact-now a{
+    color: black;
+}
+.social a{
+    color: black;
+}
+span{
+    color: #FF4D4D;
+}
+.footer-logo a i{
+    color: #726e5f;
+}
+    
+
 
 
 
