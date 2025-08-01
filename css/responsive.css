@@ -10,7 +10,30 @@
         z-index: 100;
      }
      nav ul {
-      display: none;
+        display: flex;
+        height: 80vh;
+        width: 25%;
+        position: fixed;
+        top: 40px;
+        right: 0;
+        background-color: #BBB6A3;
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0;
+        transition: 0.5s;
+        border-radius: 10px;
+        
+        
+       
+     
+     }
+     nav ul a{
+      color: white;
+     }
+      header nav ul.clicked{
+        opacity: 1;
      }
 }
 @media screen and (max-width:575px){
