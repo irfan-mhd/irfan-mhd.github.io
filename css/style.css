@@ -106,6 +106,7 @@ h1{
     gap: 30px;
     align-items: center;
     padding: 10px;
+    flex-wrap: wrap;
 }
 .service-text{
     background-color: #F0E3D3;
@@ -115,7 +116,7 @@ h1{
     gap: 30px;
     justify-content: space-between;
     padding: 100px 0px;
-    flex-wrap: wrap;
+    
 }
 .line{
     background-color: #FF4D4D;
@@ -256,6 +257,7 @@ h1{
 }
 .skills-cnt h3{
       text-align: center;
+      padding: 25px 0px;
 }
 .skills-cnt{
     padding: 100px 0px;
@@ -341,8 +343,12 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
 #portfolio{
     background-color: #fdf7eb;
+}
+.portfolio-cnt{
+    padding: 60px 0px;
 }
 .pt-head {
     display: flex;
@@ -376,6 +382,19 @@ h1{
 .portfolio-col img{
     width: 100%;
 }
+.see-all-bt{
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    padding: 5px 15px;
+    background-color: #FF4D4D;
+    gap: 10px;
+    border-radius: 30px;
+}
+.see-all-bt a{
+    color: black;
+}
+
 
 
 
