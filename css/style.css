@@ -213,6 +213,7 @@ h1{
 .grid-web{
     background-color: #F0E3D3;
     padding: 10px 5px;
+    height: 100%;
 
 }
 #skills{
@@ -245,6 +246,7 @@ h1{
     border: solid 1px; 
     border-color: #FDF7EB;
     padding: 20px;
+    height: 100%;
 }
 .skill-col:hover{
     background-color: #FDF7EB;
@@ -300,6 +302,9 @@ h1{
     width: 200px;
     height: 3px;
     border-radius: 15px;
+}
+.skills-heading h4{
+    
 }
 .skill-col.js .count-in{
     background-color: #FF4D4D;
@@ -390,6 +395,7 @@ h1{
     background-color: #FF4D4D;
     gap: 10px;
     border-radius: 30px;
+    margin-top: 15px;
 }
 .see-all-bt a{
     color: black;
