@@ -432,6 +432,13 @@ span{
     display: flex;
     flex-direction: column;
 }
+.footer-logo a{
+    font-size: 30px;
+}
+.footer-logo{
+    display: flex;
+    gap: 15px;
+}
     
 
 
