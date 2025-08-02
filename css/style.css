@@ -428,6 +428,10 @@ span{
 .footer-logo a i{
     color: #726e5f;
 }
+.social {
+    display: flex;
+    flex-direction: column;
+}
     
 
 

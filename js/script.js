@@ -3,10 +3,13 @@ $('.toggle-bt').click(function(){
     $('nav ul').toggleClass('clicked')
     
 })
+
 $(window).on('scroll',function(){
-    if($(window).scrolltop() > 50){
-        $('header').css('background-color','yellow')
+
+     var scrolled = $(window).scrollTop();
+    if(scrolled > 50){
+        $('header').css('background-color','white')
     }else{
-        $('header').css('background-color','none');
+        $('header').css('background-color','transparent');
     }
 });
